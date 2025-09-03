@@ -22,6 +22,11 @@
     margin-bottom: 32px;
 }
 
+.rodape-conteudo img{
+    width: 250px;
+    height: auto;
+}
+
 .dados {
     display: flex;
     align-items: center;

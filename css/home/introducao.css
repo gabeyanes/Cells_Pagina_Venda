@@ -51,15 +51,3 @@
         flex-direction: column;
     }
 }
-
-@media (max-width: 800px){
-    .introducao {
-        height: 80dvh;
-    }
-}
-
-@media (max-width:600px){
-    .introducao{
-        height: 70dvh;
-    }
-}
