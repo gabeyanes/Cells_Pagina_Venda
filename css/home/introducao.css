@@ -42,16 +42,24 @@
     width: 34ch;
 }
 
-@media (max-width: 800px){
-    .introducao {
-        height: 80dvh;
-    }
-
+@media (max-width: 1200px) {
     .introducao-conteudo {
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 800px){
+    .introducao {
+        height: 80dvh;
+    }
+}
+
+@media (max-width:600px){
+    .introducao{
+        height: 70dvh;
     }
 }

@@ -1,8 +1,8 @@
-.beneficios-bg{
+.beneficios-bg {
     background-color: var(--dark1);
 }
 
-.beneficios{
+.beneficios {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,28 +11,30 @@
     padding: 28px 64px;
 }
 
-.beneficios .beneficio{
+.beneficios .beneficio {
     display: inline-flex;
     align-items: center;
     gap: 20px;
     color: var(--white);
 }
 
-@media (max-width: 800px){
-    .beneficios{
+@media (max-width:1200px) {
+    .beneficios {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
     }
+}
 
-    .beneficio svg{
+@media (max-width: 800px) {
+    .beneficio svg {
         width: 32px;
         height: 32px;
     }
 }
 
-@media (max-width: 600px){
-    .beneficios{
+@media (max-width: 600px) {
+    .beneficios {
         grid-template-columns: 1fr;
         padding: 20px 32px;
     }
