@@ -30,3 +30,7 @@ const swiper = new Swiper('.swiper', {
 
 new Accordion([".accordion-container", ".accordion-container2"], {})
 
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
+
