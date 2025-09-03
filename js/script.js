@@ -35,3 +35,25 @@ if (window.SimpleAnime) {
     new SimpleAnime();
 }
 
+// variável com o texto que você quer copiar
+const textoParaCopiar = "CELLSGRATIS";
+
+// botão
+const copyBtn = document.getElementById("cupom");
+
+copyBtn.addEventListener("click", () => {
+  navigator.clipboard.writeText(textoParaCopiar)
+    .then(() => {
+      console.log("Texto copiado com sucesso!");
+
+      // força o foco no botão
+      copyBtn.focus();
+
+      // feedback visual
+      copyBtn.classList.add("copied");
+      setTimeout(() => copyBtn.classList.remove("copied"), 1500);
+    })
+    .catch(err => {
+      console.error("Erro ao copiar texto: ", err);
+    });
+});
