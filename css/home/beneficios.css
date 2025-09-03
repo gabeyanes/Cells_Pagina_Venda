@@ -34,8 +34,12 @@
 }
 
 @media (max-width: 600px) {
-    .beneficios {
-        grid-template-columns: 1fr;
-        padding: 20px 32px;
+    .beneficio svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .beneficios{
+        gap: 8px;
     }
 }

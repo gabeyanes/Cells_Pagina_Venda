@@ -138,10 +138,16 @@ h3 {
     }
 
     .label-h {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .subtitulo {
         font-size: 16px;
+    }
+}
+
+@media (max-width:500px){
+    .label-h{
+        font-size: 14px;
     }
 }
