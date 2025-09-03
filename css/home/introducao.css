@@ -1,0 +1,57 @@
+.introducao-bg {
+    background-image: url("/imgs/artes/imagemdefundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100dvh;
+}
+
+.introducao-conteudo {
+    align-self: center;
+}
+
+.introducao h1 {
+    width: 20ch;
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.introducao #cupom {
+    margin-bottom: 16px;
+}
+
+.introducao .legenda {
+    margin-bottom: 18px;
+    gap: 16px;
+}
+
+.introducao .legenda .informativo {
+    color: var(--white-2);
+}
+
+.introducao-conteudo p {
+    color: var(--white-2);
+}
+
+.introducao-conteudo .corpo-texto {
+    margin-bottom: 24px;
+    width: 34ch;
+}
+
+@media (max-width: 800px){
+    .introducao {
+        height: 80dvh;
+    }
+
+    .introducao-conteudo {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

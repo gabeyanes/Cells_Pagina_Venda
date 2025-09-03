@@ -1,0 +1,37 @@
+.accordion-container2,
+.accordion-container{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ac{
+    padding: 16px !important;
+    border-radius: 8px;
+}
+
+.ac-trigger{
+    font-family: var(--family1) !important;
+    font-size: 20px !important;
+}
+
+.ac-text{
+    font-family: var(--family1) !important;
+    font-size: 14px !important;
+}
+
+.ac .ac-trigger:focus {
+  color: var(--primary) !important;
+}
+
+@media (max-width:800px){
+    .ac-trigger{
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:600px){
+    .ac-trigger{
+        font-size: 16px !important;
+    }
+}

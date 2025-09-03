@@ -1,0 +1,30 @@
+:root {
+    /* Color styles */
+    --primary: #F5621C;
+    --dark1: #212121;
+    --dark2: #2A2A2A;
+    --dark3: #424242;
+    --white-3: #DADADA;
+    --white-2: #DFDFDF;
+    --white: #F8F8F8;
+    --background: #FFF4E1;
+
+    /* Text-size styles */
+    --h1: 48px;
+    --h2: 36px;
+    --h3: 24px;
+    --h3--texto--pequeno: 20px;
+    --subtitulo: 22px;
+    --corpo-do-texto: 16px;
+    --botão: 20px;
+    --corpo-do-texto-pequeno: 14px;
+    --cabeçalho--corpo: 18px;
+    --l-i-n-k: 18px;
+    --label-h: 28px;
+    --descrição---informativo: 14px;
+    --descrição---informativo--bold: 16px;
+
+    /* Font-Family Styles */
+    --family1: "DM Sans";
+    --family2: "DM Sans"
+}

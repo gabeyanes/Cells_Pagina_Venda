@@ -1,0 +1,22 @@
+.perguntas-frequentes{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 64px;
+}
+
+.perguntas-frequentes .subtitulo{
+    color: var(--primary);
+    margin-bottom: 18px;
+}
+
+.perguntas-frequentes h1{
+    margin-bottom: 42px;
+    color: var(--dark);
+}
+
+@media (max-width:800px){
+    .perguntas-frequentes{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}

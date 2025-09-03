@@ -1,0 +1,147 @@
+h1 {
+    font-family: var(--family2);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.768px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: var(--family2);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    font-family: var(--family2);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.h3-texto-pequeno {
+    font-family: var(--family1);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.informativo {
+    font-family: var(--family1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.corpo-texto {
+    font-family: var(--family1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.192px;
+}
+
+.corpo-texto-pequeno {
+    font-family: var(--family1);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.192px;
+}
+
+.corpo-texto-pequeno-normal {
+    font-family: var(--family1);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label-h {
+    font-family: var(--family2);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-family: var(--family2);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width:800px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .corpo-texto {
+        font-size: 14px;
+    }
+
+    .corpo-texto-pequeno-normal,
+    .corpo-texto-pequeno {
+        font-size: 12px;
+    }
+
+    .label-h {
+        font-size: 22px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .corpo-texto {
+        font-size: 14px;
+    }
+
+    .corpo-texto-pequeno-normal,
+    .corpo-texto-pequeno {
+        font-size: 12px;
+    }
+
+    .label-h {
+        font-size: 18px;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+}

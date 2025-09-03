@@ -1,0 +1,35 @@
+.ingredientes-bg {
+    background-color: var(--dark1);
+}
+
+.ingredientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding-bottom: 64px;
+}
+
+.ingredientes-conteudo h3{
+    color: var(--primary);
+    margin-bottom: 18px;
+}
+
+.ingredientes-conteudo h1{
+    color: var(--white);
+    margin-bottom: 32px;
+}
+
+.ingredientes-conteudo .corpo-texto{
+    color: var(--white-2);
+    margin-bottom: 18px;
+}
+
+@media (max-width:800px){
+    .ingredientes{
+        grid-template-columns: 1fr;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    
+}
