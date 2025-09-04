@@ -57,5 +57,3 @@ copyBtn.addEventListener("click", () => {
       console.error("Erro ao copiar texto: ", err);
     });
 });
-
-const meuNicolas = document.querySelector(".")
