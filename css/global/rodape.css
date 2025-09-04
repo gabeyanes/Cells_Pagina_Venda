@@ -81,4 +81,8 @@
     .rodape-conteudo{
         flex-direction: column;
     }
+
+    .rodape-conteudo img{
+        width: 100%;
+    }
 }
